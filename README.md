@@ -1,2 +1,2 @@
 # The_first
-My first ever program which is on gaming.
+My first ever project which is on gaming.
