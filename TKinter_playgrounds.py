@@ -3,6 +3,7 @@ from tkinter import Tk, Toplevel,Frame, Label, Button, Entry, messagebox, TOP,St
 
 import random
 
+#code for the main window.
 
 root = Tk()
 root.title("TKinter Playgrounds")
@@ -13,6 +14,8 @@ my_font = ("Arial", 14)
 button_frame = Frame(root,bg="purple")
 response_label = None  # Declare response_label as a global variable
 result_label = None  # Declare result_label as a global variable
+
+#code begins for the first game "GUESS THE NUMBER"
 
 def guess_instruct():
     guess_window = Toplevel(root)
@@ -34,7 +37,7 @@ def guess_instruct():
 
     let_me_guess = Button(guess_window, text="Let The Computer Guess", font=my_font, bg="gold", command=sys_guess)
     let_me_guess.pack()
-
+#Code for "Make A Guess" which is a sub game
 def you_guess():
     you_guess_window = Toplevel(root)
     you_guess_window.title("Make a Guess")
@@ -70,7 +73,7 @@ def you_guess():
     global result_label  # Declare result_label as a global variable
     result_label = Label(you_guess_window, text="", font=my_font, bg="gold")
     result_label.pack(pady=10)
-
+#The code for "let the computer guess" which is another sub game
 def sys_guess():
     sys_guess_frame = Toplevel(root)
     sys_guess_frame.title("Let The Computer Guess")
@@ -123,6 +126,8 @@ def sys_guess():
     tk.Label(sys_guess_frame, text="Think of a number between 1 and 10.", font=my_font, bg="gold").pack(pady=10)
     tk.Button(sys_guess_frame, text="Press when ready", font=my_font, bg="gold", command=computer_guess).pack(pady=10)
 
+#The code for Rock paper Scissors game
+
 def rps_instruct():
     rps_window = Toplevel(root)
     rps_window.title("INSTRUCTIONS: ")
@@ -170,6 +175,8 @@ def rps_instruct():
 
     result_label = Label(rps_window, text="",bg="gold", font=my_font)
     result_label.pack(pady=10)
+
+#The code for Hangman game
 
 def hangman(root):
     def choose_word():
@@ -238,7 +245,7 @@ def hangman(root):
 
     attempts_var = tk.IntVar()
     tk.Button(hangman_window, text="Guess", command=make_guess, bg="gold").pack(pady=10)
-
+#The code Tic Tac Toe game
 def tic_tac_toe():
     def check_winner():
         for row in board:
@@ -322,6 +329,8 @@ def tic_tac_toe():
     computer_label = Label(tic_tac_toe_window, text=f"Computer: {computer_symbol}", font=my_font, bg="gold")
     computer_label.grid(row=3, column=1, pady=5)
 
+#The buttons on the home page to which the functions are commanded 
+
 guess_number = Button(button_frame, text="   Guess the number   ", font=my_font, bg="gold", command=guess_instruct)
 guess_number.pack(side=TOP,padx=10, pady=10)
 
@@ -340,3 +349,4 @@ welcome.pack(side=TOP, pady=50)
 
 button_frame.pack()
 root.mainloop()
+#End of the code
