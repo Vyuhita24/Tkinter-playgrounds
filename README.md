@@ -35,4 +35,4 @@
 <p>Run the script and have fun!</p>
 
 <p><strong>Thank you!</strong></p>
-<p><strong>Developed by: Vyuhita Gunupudi (Vyuhita24, The_first)</strong></p>
+<p><strong>Developed by: Vyuhita Gunupudi (Vyuhita24, Tkinter-playgrounds)</strong></p>
