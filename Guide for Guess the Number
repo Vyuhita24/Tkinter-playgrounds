@@ -1,0 +1,27 @@
+# Guess the Number Game Guide
+
+This file provides the guide to the game GUESS THE NUMBER.
+
+The main window looks like this:
+![Screenshot (9)](https://github.com/Vyuhita24/The_first/assets/156103164/b12a25db-a564-41d6-86b9-0f030545fd73)
+
+## Let's focus on the game "GUESS THE NUMBER":
+
+This game window opens up into two games called:
+- "MAKE A GUESS"
+- "LET THE COMPUTER GUESS"
+
+![Screenshot (10)](https://github.com/Vyuhita24/The_first/assets/156103164/4b666171-a827-452f-a109-f4c0d1daa84a)
+
+### The "MAKE A GUESS" game:
+
+This game has an entry box where the player can enter their guess number, and the guide assists the user until they guess the computer's number.
+
+![Screenshot (11)](https://github.com/Vyuhita24/The_first/assets/156103164/c3049231-bf88-42c3-bf8b-9c01d2b982c5)
+
+### "LET THE COMPUTER GUESS" game:
+
+In this game, the computer guesses the user's number while correcting itself based on user prompts.
+
+![Screenshot (12)](https://github.com/Vyuhita24/The_first/assets/156103164/aba21218-ba86-4db9-86bf-d3e65cdf7450)
+
