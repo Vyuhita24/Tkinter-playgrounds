@@ -32,7 +32,8 @@
 
 <h2>Get Started:</h2>
 <p>Download the source code: <a href="[:https://github.com/Vyuhita24/The_first.git
-]">[Link text, like "Click here"]</a></p>
+]">[:https://github.com/Vyuhita24/The_first.git
+, like "Click here"]</a></p>
 <p>Run the script and have fun!</p>
 
 <p><strong>Thank you!</strong></p>
