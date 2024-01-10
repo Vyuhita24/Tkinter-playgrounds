@@ -31,7 +31,7 @@
 </ul>
 
 <h2>Get Started:</h2>
-<p>Download the source code:<a href="https://github.com/Vyuhita24/The_first.git">The_first</a>.</p>
+<p>Download the source code:<a href="https://github.com/Vyuhita24/Tkinter-playgrounds.git">The_first</a>.</p>
 <p>Run the script and have fun!</p>
 
 <p><strong>Thank you!</strong></p>
